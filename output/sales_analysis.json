@@ -1,0 +1,79 @@
+{
+  "weekly": [
+    {
+      "week": 1,
+      "period": "May 4-May 10, 2026",
+      "sales": 3140.97,
+      "wow_change": null,
+      "wow_growth_pct": null
+    },
+    {
+      "week": 2,
+      "period": "May 11-May 17, 2026",
+      "sales": 3577.61,
+      "wow_change": 436.6400000000003,
+      "wow_growth_pct": 0.13901438090780882
+    },
+    {
+      "week": 3,
+      "period": "May 18-May 24, 2026",
+      "sales": 4014.98,
+      "wow_change": 437.3699999999999,
+      "wow_growth_pct": 0.12225200622762111
+    },
+    {
+      "week": 4,
+      "period": "May 25-May 31, 2026",
+      "sales": 6171.99,
+      "wow_change": 2157.0099999999998,
+      "wow_growth_pct": 0.5372405341994231
+    }
+  ],
+  "total_sales": 16905.55,
+  "average_weekly_sales": 4226.3875,
+  "prior_baseline_average": 3577.853333333333,
+  "latest_week_sales": 6171.99,
+  "latest_lift_vs_baseline": 2594.1366666666668,
+  "latest_lift_pct_vs_baseline": 0.725053942960211,
+  "top_products": [
+    "Supreme socks",
+    "In Glock We Trust tees",
+    "Fear of God shorts",
+    "$15 vintage tees",
+    "$25 vintage t-shirts"
+  ],
+  "seasonal_hypothesis": {
+    "claim": "School being out and graduation parties likely contributed to the latest spike.",
+    "confidence": "medium",
+    "validation_needed": [
+      "daily sales",
+      "transaction count",
+      "average order value",
+      "customer count",
+      "promotion calendar",
+      "margin by product"
+    ]
+  },
+  "scenarios": [
+    {
+      "name": "Conservative baseline",
+      "weekly_target": 3577.853333333333,
+      "four_week_total": 14311.413333333332
+    },
+    {
+      "name": "Hold 50% of latest lift",
+      "weekly_target": 4874.921666666666,
+      "four_week_total": 19499.686666666665
+    },
+    {
+      "name": "Hold 75% of latest lift",
+      "weekly_target": 5523.455833333333,
+      "four_week_total": 22093.823333333334
+    },
+    {
+      "name": "Repeat latest week",
+      "weekly_target": 6171.99,
+      "four_week_total": 24687.96
+    }
+  ]
+}
